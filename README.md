@@ -192,3 +192,18 @@ owligator/
 ├── README.md
 └── .venv/
 ```
+
+## Run Command Example:
+python3 rack_cubby_depth_mapper.py \
+  --input_mode image \
+  --image_path "/Users/srikar/Desktop/IMG_7437.jpeg" \
+  --rows 6 \
+  --cols 10 \
+  --cubby_w_in 4 \
+  --cubby_h_in 3 \
+  --gap_x_in 0.875 \
+  --gap_y_in 0.75 \
+  --left_margin_in 0.5 \
+  --right_margin_in 0.5 \
+  --top_margin_in 0.5 \
+  --bottom_margin_in 0.5
